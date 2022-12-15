@@ -1,0 +1,1048 @@
+/* TYPOGRAPHY */
+
+body {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #5a5a5a;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0px;
+  font-weight: 600;
+  display: block;
+  position: relative;
+  right: 100px;
+  top: -200px;
+  max-width: 500px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #5e637a;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: #5a5a5a;
+  font-weight: 300;
+  max-width: 330px;
+  text-align: center;
+  position: relative;
+  top: -310px;
+  left: 30px;
+}
+h3 {
+  color: #f47536;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  position: relative;
+  top: -300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #898fae;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #f47536;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #938c82;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+}
+h7 {
+  color: #5e637a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+h8 {
+  color: #898fae;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+h9 {
+  color: #898fae;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+h10 {
+  color: #f47536;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-shadow: 2px 2px 5px black;
+  position: relative;
+  bottom: 350px;
+  left: 30px;
+}
+.title1 {
+  position: relative;
+  top: -350px;
+  left: -60px;
+  font-size: 2rem;
+  min-width: 500px;
+}
+.text1 {
+  position: relative;
+  top: -390px;
+}
+.title2 {
+  position: relative;
+  top: -430px;
+  left: -10px;
+  font-size: 2rem;
+  min-width: 400px;
+}
+.text2 {
+  position: relative;
+  top: -470px;
+}
+.title3 {
+  position: relative;
+  top: -580px;
+  left: 0px;
+  text-align: center;
+  max-width: 450px;
+  font-size: 3.3rem;
+}
+.text3 {
+  position: relative;
+  top: -810px;
+  text-align: left;
+  max-width: 150px;
+  left: 220px;
+  font-size: 0.9rem;
+}
+.title4 {
+  position: relative;
+  top: -830px;
+  left: 20px;
+  font-size: 2rem;
+  min-width: 350px;
+}
+.text4 {
+  position: relative;
+  top: -870px;
+}
+.title5 {
+  position: relative;
+  top: -930px;
+  left: 45px;
+}
+.text5 {
+  position: relative;
+  top: -1000px;
+}
+.title6 {
+  position: relative;
+  top: -1050px;
+  left: 20px;
+  font-size: 2rem;
+  min-width: 350px;
+}
+.text6 {
+  position: relative;
+  top: -1080px;
+}
+.title7 {
+  position: relative;
+  top: -1130px;
+  left: 20px;
+  font-size: 2rem;
+  min-width: 350px;
+}
+.text7 {
+  position: relative;
+  top: -1170px;
+}
+.title8 {
+  position: relative;
+  top: -1230px;
+  left: 45px;
+  font-size: 2rem;
+}
+.text8 {
+  position: relative;
+  top: -1270px;
+}
+.title9 {
+  position: relative;
+  top: -1320px;
+  left: 45px;
+  font-size: 2rem;
+  
+}
+.text9 {
+  position: relative;
+  top: -1360px;
+}
+
+a {
+  color: #f47536;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 1.5em 0.75em;
+}
+
+/* WHO WE ARE PAGE */
+
+.title10 {
+  position: relative;
+  top: -160px;
+  width: 300px;
+  text-align: center;
+  left: 35px;
+}
+.text10 {
+  position: relative;
+  top: -325px;
+}
+.h6 {
+  position: relative;
+  top: -290px;
+  width: 300px;
+  text-align: center;
+  left: 40px;
+}
+.title11 {
+  position: relative;
+  text-decoration: none;
+  top: -350px;
+  left: 35px;
+  font-size: 2rem;
+}
+.text11 {
+  position: relative;
+  top: -410px;
+  left: 25px;
+}
+.title12 {
+  position: relative;
+  text-decoration: none;
+  top: -490px;
+  left: 45px;
+}
+.text12 {
+  position: relative;
+  top: -540px;
+}
+.title13 {
+  position: relative;
+  text-decoration: none;
+  top: -620px;
+  left: 40px;
+}
+.text13 {
+  position: relative;
+  top: -660px;
+  left: 30px;
+}
+.title14 {
+  position: relative;
+  text-decoration: none;
+  top: -740px;
+  left: 40px;
+}
+.text14 {
+  position: relative;
+  top: -790px;
+  left: 20px;
+}
+/* WHAT WE DO PAGE */
+.title15 {
+  text-align: center;
+  position: relative;
+  top: -160px;
+  left: 0px;
+  font-size: 2.4rem;
+}
+.subtitle15 {
+  position: relative;
+  top: -280px;
+  text-align: center;
+}
+.text15 {
+  position: relative;
+  top: -300px;
+}
+.title16 {
+  position: relative;
+  top: -350px;
+  left: 0px;
+  font-size: 2rem;
+  min-width: 400px;
+}
+.text16 {
+  position: relative;
+  top: -400px;
+}
+.title17 {
+  position: relative;
+  top: -460px;
+  left: 0px;
+  font-size: 2rem;
+  min-width: 400px;
+}
+.text17 {
+  position: relative;
+  top: -510px;
+}
+.title18 {
+  position: relative;
+  top: -550px;
+  left: 0px;
+  font-size: 2rem;
+  min-width: 400px;
+}
+.text18 {
+  position: relative;
+  top: -590px;
+}
+.title19 {
+  position: relative;
+  top: -630px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text19 {
+  position: relative;
+  top: -680px;
+}
+.title20 {
+  position: relative;
+  top: -720px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text20 {
+  position: relative;
+  top: -770px;
+}
+.title21 {
+  position: relative;
+  top: -810px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text21 {
+  position: relative;
+  top: -850px;
+}
+/* WAYS YOU CAN HELP */
+.title22 {
+  position: relative;
+  left: 55px;
+  width: 300px;
+  top: -160px;
+}
+.text22 {
+  position: relative;
+  top: -260px;
+}
+.title23 {
+  position: relative;
+  top: -290px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text23 {
+  position: relative;
+  top: -340px;
+}
+.title24 {
+  position: relative;
+  top: -380px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text24 {
+  position: relative;
+  top: -420px;
+}
+.title25 {
+  position: relative;
+  top: -470px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text25 {
+  position: relative;
+  top: -510px;
+}
+.title26 {
+  position: relative;
+  top: -560px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text26 {
+  position: relative;
+  top: -600px;
+}
+.title27 {
+  position: relative;
+  top: -630px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text27 {
+  position: relative;
+  top: -680px;
+}
+.title28 {
+  position: relative;
+  top: -710px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text28 {
+  position: relative;
+  top: -730px;
+}
+.title29 {
+  position: relative;
+  top: -780px;
+  left: 40px;
+  font-size: 2rem;
+}
+.text29 {
+  position: relative;
+  top: -820px;
+}
+/* DONATE PAGE */
+.title30 {
+  position: relative;
+  top: -160px;
+  text-align: center;
+}
+.text30 {
+  position: relative;
+  top: -260px;
+}
+.title31 {
+  text-align: center;
+  position: relative;
+  left: 55px;
+  top: -250px;
+}
+.title32 {
+  text-align: center;
+  position: relative;
+  left: 55px;
+  top: -230px;
+}
+.title33 {
+  text-align: center;
+  position: relative;
+  left: 85px;
+  top: -120px;
+}
+.title34 {
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+.title35 {
+  text-align: center;
+  position: relative;
+  left: 130px;
+  top: 70px;
+}
+/* HOME PAGE - LAPTOP VIEW */
+@media (min-width: 768px) {
+  h10 {
+    font-size: 5rem;
+    position: relative;
+    top: -750px;
+    left: 100px;
+  }
+  .h1 {
+    font-size: 5rem;
+    position: relative;
+    top: -550px;
+    left: 200px;
+    text-align: center;
+    min-width: 2000px;
+  }
+  p {
+    position: relative;
+    left: 50px;
+    text-align: left;
+    font-size: 1.3rem;
+    min-width: 1000px;
+    top: -600px;
+  }
+  .title1 {
+    min-width: 750px;
+    font-size: 2.2rem;
+    text-align: right;
+    position: relative;
+    left: 400px;
+    top: -650px;
+  }
+  .text1 {
+    min-width: 600px;
+    font-size: 1.2rem;
+    text-align: right;
+    position: relative;
+    left: 510px;
+    top: -680px;
+  }
+  .title2 {
+    min-width: 700px;
+    font-size: 2.2rem;
+    text-align: left;
+    position: relative;
+    top: -950px;
+    left: 20px;
+  }
+  .text2 {
+    min-width: 640px;
+    font-size: 1.3rem;
+    text-align: left;
+    position: relative;
+    top: -990px;
+  }
+  .title3 {
+    min-width: 1000px;
+    font-size: 4rem;
+    position: relative;
+    text-align: center;
+    left: 100px;
+    top: -1350px;
+  }
+  .text3 {
+    font-size: 1.5rem;
+    text-align: left;
+    position: relative;
+    left: 580px;
+    top: -1600px;
+    min-width: 500px;
+  }
+  .title4 {
+    min-width: 1000px;
+    font-size: 2.2rem;
+    text-align: right;
+    position: relative;
+    top: -1580px;
+    left: 130px;
+  }
+  .text4 {
+    min-width: 700px;
+    font-size: 1.2rem;
+    text-align: right;
+    position: relative;
+    left: 400px;
+    top: -1600px;
+  }
+  .title5 {
+    font-size: 4rem;
+    text-align: center;
+    min-width: 1000px;
+    position: relative;
+    top: -1700px;
+    left: 0px;
+  }
+  .text5 {
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: -1800px;
+    left: 100px;
+  }
+  .title6 {
+    font-size: 2.2rem;
+    text-align: center;
+    min-width: 1000px;
+    position: relative;
+    left: 100px;
+    top: -1800px;
+  }
+  .text6 {
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    top: -1850px;
+    left: 100px;
+  }
+  .title7 {
+    font-size: 2.2rem;
+    text-align: center;
+    min-width: 1000px;
+    position: relative;
+    left: 100px;
+    top: -1900px;
+  }
+  .text7 {
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    top: -1950px;
+    min-width: 700px;
+    left: 250px;
+  }
+  .title8 {
+    font-size: 2.2rem;
+    text-align: left;
+    min-width: 1000px;
+    position: relative;
+    left: 350px;
+    top: -2000px;
+  }
+  .text8 {
+    font-size: 1.2rem;
+    text-align: center;
+    min-width: 800px;
+    position: relative;
+    top: -2050px;
+    left: 200px;
+  }
+  .title9 {
+    font-size: 2.2rem;
+    text-align: right;
+    min-width: 1000px;
+    position: relative;
+    top: -2100px;
+    left: -100px;
+  }
+  .text9 {
+    font-size: 1.2rem;
+    text-align: center;
+    min-width: 800px;
+    position: relative;
+    top: -2150px;
+    left: 200px;
+    padding-bottom: 20px;
+  }
+  /* WHO WE ARE LAPTOP VIEW */
+  .title10 {
+    font-size: 3rem;
+    text-align: left;
+    width: 600px;
+    position: relative;
+    top: -180px;
+  }
+  .h6 {
+    font-size: 1.3rem;
+    text-align: left;
+    width: 650px;
+    position: relative;
+    top: -340px;
+    left: 60px;
+  }
+  .text10 {
+    text-align: left;
+    min-width: 650px;
+    top: -400px;
+    position: relative;
+    left: 80px;
+    font-size: 1.2rem;
+  }
+  .title11 {
+    text-align: right;
+    min-width: 1000px;
+    font-size: 2.2rem;
+    position: relative;
+    left: 150px;
+    top: -720px;
+  }
+  .text11 {
+    text-align: right;
+    min-width: 1000px;
+    position: relative;
+    left: 125px;
+    top: -780px;
+    font-size: 1.1rem;
+  }
+  .title12 {
+    text-align: left;
+    min-width: 1000px;
+    font-size: 2.2rem;
+    position: relative;
+    left: 10px;
+    top: -800px;
+  }
+  .text12 {
+    text-align: left;
+    min-width: 1000px;
+    position: relative;
+    left: 40px;
+    top: -850px;
+    min-width: 600px;
+    font-size: 1.2rem;
+  }
+  .title13 {
+    text-align: right;
+    min-width: 1000px;
+    font-size: 2.2rem;
+    position: relative;
+    left: 130px;
+    top: -1050px;
+  }
+  .text13 {
+    text-align: right;
+    min-width: 1000px;
+    position: relative;
+    top: -1100px;
+    left: 100px;
+    font-size: 1.2rem;
+  }
+  .title14 {
+    text-align: left;
+    min-width: 1000px;
+    font-size: 2.2rem;
+    position: relative;
+    left: 0px;
+    top: -1300px;
+  }
+  .text14 {
+    text-align: left;
+    min-width: 1000px;
+    position: relative;
+    left: 30px;
+    top: -1330px;
+  }
+  /* WHAT WE DO PAGE */
+  .title15 {
+    font-size: 3rem;
+    text-align: left;
+    width: 1000px;
+    position: relative;
+    top: -200px;
+  }
+  .subtitle15 {
+    font-size: 1.5rem;
+    text-align: left;
+    position: relative;
+    width: 1000px;
+    top: -380px;
+    left: 20px;
+  }
+  .text15 {
+    font-size: 1.2rem;
+    text-align: left;
+    position: relative;
+    left: 40px;
+    top: -450px;
+  }
+  .title16 {
+    text-align: right;
+    font-size: 2.2rem;
+    min-width: 900px;
+    position: relative;
+    top: -780px;
+    left: 200px;
+  }
+  .text16 {
+    text-align: right;
+    min-width: 600px;
+    position: relative;
+    top: -820px;
+    left: 480px;
+    font-size: 1.2rem;
+  }
+  .title17 {
+    text-align: left;
+    font-size: 2.2rem;
+    position: relative;
+    top: -830px;
+    left: 20px;
+  }
+  .text17 {
+    text-align: left;
+    min-width: 700px;
+    position: relative;
+    top: -880px;
+    left: 50px;
+    font-size: 1.2rem;
+  }
+  .title18 {
+    text-align: right;
+    font-size: 2.2rem;
+    position: relative;
+    top: -950px;
+    left: 740px;
+  }
+  .text18 {
+    text-align: right;
+    min-width: 700px;
+    position: relative;
+    top: -1000px;
+    left: 400px;
+    font-size: 1.2rem;
+  }
+  .title19 {
+    text-align: left;
+    font-size: 2.2rem;
+    position: relative;
+    top: -1250px;
+    left: 25px;
+  }
+  .text19 {
+    text-align: left;
+    min-width: 600px;
+    position: relative;
+    top: -1300px;
+    left: 50px;
+    font-size: 1.2rem;
+  }
+  .title20 {
+    text-align: right;
+    font-size: 2.2rem;
+    min-width: 1000px;
+    position: relative;
+    top: -1320px;
+    left: 150px;
+  }
+  .text20 {
+    text-align: right;
+    min-width: 600px;
+    position: relative;
+    top: -1360px;
+    left: 530px;
+    font-size: 1.2rem;
+  }
+  .title21 {
+    text-align: left;
+    font-size: 2.2rem;
+    min-width: 1000px;
+    position: relative;
+    top: -1450px;
+    left: 25px;
+  }
+  .text21 {
+    text-align: left;
+    min-width: 700px;
+    position: relative;
+    top: -1500px;
+    left: 50px;
+    font-size: 1.2rem;
+  }
+
+  /* WAYS YOU CAN HELP */
+  .title22 {
+    font-size: 3rem;
+    position: relative;
+    left: 10px;
+    top: -200px;
+    min-width: 900px;
+  }
+  .text22 {
+    text-align: left;
+    position: relative;
+    left: 50px;
+    top: -330px;
+    font-size: 1.2rem;
+  }
+  .title23 {
+    font-size: 2.2rem;
+    text-align: center;
+    min-width: 900px;
+    position: relative;
+    left: 150px;
+    top: -380px;
+  }
+  .text23 {
+    text-align: center;
+    min-width: 700px;
+    position: relative;
+    left: 250px;
+    top: -420px;
+    font-size: 1.2rem;
+  }
+  .title24 {
+    font-size: 2.2rem;
+    text-align: center;
+    min-width: 900px;
+    position: relative;
+    top: -450px;
+    left: 150px;
+  }
+  .text24 {
+    text-align: center;
+    min-width: 700px;
+    position: relative;
+    top: -500px;
+    left: 250px;
+    font-size: 1.2rem;
+  }
+  .title25 {
+    font-size: 2.2rem;
+    text-align: center;
+    min-width: 900px;
+    position: relative;
+    top: -550px;
+    left: 150px;
+  }
+  .text25 {
+    text-align: center;
+    min-width: 700px;
+    position: relative;
+    top: -600px;
+    left: 250px;
+    font-size: 1.2rem;
+  }
+  .title26 {
+    font-size: 2.2rem;
+    text-align: center;
+    min-width: 900px;
+    position: relative;
+    top: -650px;
+    left: 150px;
+  }
+  .text26 {
+    text-align: center;
+    min-width: 700px;
+    position: relative;
+    top: -700px;
+    left: 250px;
+    font-size: 1.2rem;
+  }
+  .title27 {
+    font-size: 2.2rem;
+    text-align: right;
+    min-width: 900px;
+    position: relative;
+    top: -750px;
+    left: -100px;
+  }
+  .text27 {
+    text-align: center;
+    min-width: 700px;
+    position: relative;
+    top: -800px;
+    left: 250px;
+    font-size: 1.2rem;
+  }
+  .title28 {
+    font-size: 2.2rem;
+    text-align: center;
+    min-width: 900px;
+    position: relative;
+    top: -850px;
+    left: 150px;
+  }
+  .text28 {
+    text-align: center;
+    min-width: 700px;
+    position: relative;
+    top: -900px;
+    left: 250px;
+    font-size: 1.2rem;
+  }
+  .title29 {
+    font-size: 2.2rem;
+    text-align: right;
+    min-width: 900px;
+    position: relative;
+    top: -950px;
+    left: -80px;
+  }
+  .text29 {
+    text-align: center;
+    min-width: 700px;
+    position: relative;
+    top: -1000px;
+    left: 250px;
+    font-size: 1.2rem;
+  }
+
+  /* DONATE */
+  .title30 {
+    font-size: 3rem;
+    position: relative;
+    top: -180px;
+    text-align: left;
+    left: 10px;
+  }
+  .text30 {
+    text-align: left;
+    min-width: 950px;
+    position: relative;
+    top: -300px;
+    font-size: 1.2rem;
+  }
+  .title31 {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    left: 380px;
+    top: -250px;
+  }
+  .title32 {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    left: 335px;
+    top: -230px;
+  }
+  .title33 {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    top: -100px;
+  }
+  .title34 {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    left: 380px;
+    top: 100px;
+  }
+  .title35 {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    left: 460px;
+    top: -200px;
+  }
+}
+
+/* text styles */
+
+.text-center {
+  text-align: center;
+}
+
+.txt-shadow {
+  text-shadow: 1px 1px 3px black;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+}

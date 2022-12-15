@@ -1,0 +1,1689 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding-bottom: 0px;
+  max-height: 800px;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/* CLASSES */
+.banner,
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+  display: none;
+}
+.bannerlink,
+.bannerlink1,
+.bannerlink2,
+.bannerlink3,
+.bannerlink4 {
+  display: none;
+}
+.navbar {
+  text-decoration: none;
+  list-style: none;
+  background-color: #f47536;
+  height: 280px;
+  width: 500px;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+#changeIMG {
+  background-color: white;
+  border: none;
+  min-width: 300px;
+  position: relative;
+  top: 20px;
+  left: -10px;
+  align-items: center;
+}
+a {
+  color: white;
+  position: relative;
+  left: 65px;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 70px;
+}
+.link1 {
+  position: relative;
+  left: 33px;
+  float: left;
+  display: block;
+}
+.link2 {
+  position: relative;
+  display: block;
+  top: 70px;
+  left: -198px;
+}
+.link3 {
+  position: relative;
+  display: block;
+  top: 70px;
+  left: -140px;
+}
+.link4 {
+  position: relative;
+  display: block;
+  top: 70px;
+  left: -140px;
+}
+.logo {
+  max-width: 300px;
+  position: relative;
+  top: 20px;
+  left: -20px;
+  align-items: center;
+}
+.homeimage1 {
+  position: relative;
+  left: 0px;
+  top: -67px;
+  min-width: 500px;
+}
+.button1 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 20px;
+  position: relative;
+  left: 65px;
+  top: -220px;
+}
+.h1 {
+  position: relative;
+  left: 0px;
+  text-align: center;
+}
+.h2 {
+  position: relative;
+  top: -250px;
+  left: 40px;
+}
+.homeimage2,
+.homeimage3 {
+  display: none;
+}
+.citilogo {
+  position: relative;
+  max-width: 150px;
+  top: -690px;
+  left: 40px;
+}
+footer {
+  background-color: #5a5a5a;
+  position: relative;
+  bottom: 1350px;
+  min-width: 500px;
+  height: 1100px;
+}
+.items {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  top: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.button2 {
+  background-color: #f47536;
+  display: inline;
+  font-size: 2rem;
+  width: 300px;
+  padding: 40px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  border: none;
+  left: 40px;
+  top: 10px;
+}
+.button3 {
+  background-color: #f47536;
+  display: inline;
+  font-size: 2rem;
+  width: 300px;
+  padding: 40px;
+  position: relative;
+  left: 40px;
+  top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+.facebooklogo {
+  max-width: 30px;
+  position: relative;
+  top: -10px;
+  left: 30px;
+}
+.instalogo {
+  max-width: 25px;
+  position: relative;
+  top: -10px;
+  left: 60px;
+}
+.twitterlogo {
+  max-width: 33px;
+  position: relative;
+  top: -8px;
+  left: 90px;
+}
+.youtubelogo {
+  max-width: 40px;
+  position: relative;
+  top: 4px;
+  left: 110px;
+}
+.shareyourstrength1 {
+  position: relative;
+  top: 90px;
+  max-width: 200px;
+  left: -90px;
+}
+.copyrightlogo {
+  position: relative;
+  max-width: 13px;
+  top: 104px;
+  left: 35px;
+}
+.itemindex {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  top: 50px;
+}
+
+/*WHO WE ARE PAGE */
+
+.whoweareimage1 {
+  display: block;
+  min-width: 400px;
+  position: relative;
+  left: 0px;
+  top: -67px;
+}
+.whoweareimage2 {
+  display: block;
+  min-width: 400px;
+  position: relative;
+  left: -20px;
+  top: -300px;
+}
+.url1 {
+  position: relative;
+  left: 0px;
+  top: -20px;
+  color: #f47536;
+  text-decoration: underline;
+}
+.whoweareimage3,
+.whoweareimage4,
+.whoweareimage5 {
+  display: none;
+}
+.url2 {
+  position: relative;
+  left: 0px;
+  top: -20px;
+  color: #f47536;
+}
+.url3 {
+  position: relative;
+  left: 0px;
+  top: -15px;
+  color: #f47536;
+}
+.hr1,
+.hr2 {
+  display: none;
+}
+.url4 {
+  position: relative;
+  left: 0px;
+  top: -10px;
+  color: #f47536;
+}
+
+.button4 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 25px;
+  position: relative;
+  width: 250px;
+  top: 10px;
+  left: 80px;
+}
+.button5 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 25px;
+  position: relative;
+  width: 250px;
+  top: 50px;
+  left: 80px;
+}
+
+.facebooklogo1 {
+  max-width: 30px;
+  position: relative;
+  left: 80px;
+  top: 70px;
+}
+.instalogo1 {
+  max-width: 28px;
+  position: relative;
+  top: 72px;
+  left: 120px;
+}
+.twitterlogo1 {
+  max-width: 33px;
+  position: relative;
+  top: 72px;
+  left: 160px;
+}
+.youtubelogo1 {
+  max-width: 40px;
+  position: relative;
+  top: 82px;
+  left: 180px;
+}
+.shareourstrength1 {
+  position: relative;
+  max-width: 200px;
+  top: 100px;
+  left: 100px;
+}
+.copyrightlogo1 {
+  max-width: 13px;
+  position: relative;
+  top: 133px;
+  left: 20px;
+}
+.footerwhoweare {
+  position: relative;
+  top: -800px;
+}
+.items1 {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  top: 20px;
+  font-weight: 300;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.whoweareitems {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  top: 80px;
+}
+
+/* WHAT WE DO PAGE */
+
+.whatwedoimage1 {
+  position: relative;
+  top: -66px;
+}
+.whatwedoimage2,
+.whatwedoimage3 {
+  display: none;
+}
+
+.button6 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 25px;
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width: 250px;
+}
+.button7 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 25px;
+  position: relative;
+  left: 0px;
+  top: 50px;
+  width: 250px;
+}
+.facebooklogo2 {
+  max-width: 30px;
+  position: relative;
+  left: -40px;
+  top: 70px;
+}
+.instalogo2 {
+  max-width: 28px;
+  position: relative;
+  left: -10px;
+  top: 72px;
+}
+.twitterlogo2 {
+  max-width: 33px;
+  position: relative;
+  left: 20px;
+  top: 72px;
+}
+.youtubelogo2 {
+  max-width: 40px;
+  position: relative;
+  left: 40px;
+  top: 82px;
+}
+.shareourstrength2 {
+  position: relative;
+  max-width: 200px;
+  top: 100px;
+}
+.copyrightlogo2 {
+  max-width: 13px;
+  position: relative;
+  left: -140px;
+  top: 133px;
+}
+.footerwhatwedo {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -30px;
+  top: -850px;
+}
+.items2 {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -40px;
+  top: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.whatwedoitems {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -50px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  top: 80px;
+}
+/* WAYS YOU CAN HELP PAGE */
+.waysyoucanhelpimage1 {
+  position: relative;
+  top: -66px;
+}
+
+.button8 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 25px;
+  position: relative;
+  left: -60px;
+  width: 250px;
+}
+.button9 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 25px;
+  position: relative;
+  top: 50px;
+  left: -60px;
+  width: 250px;
+}
+.facebooklogo3 {
+  max-width: 30px;
+  position: relative;
+  top: 70px;
+  left: -110px;
+}
+.instalogo3 {
+  max-width: 28px;
+  position: relative;
+  top: 72px;
+  left: -80px;
+}
+.twitterlogo3 {
+  max-width: 33px;
+  position: relative;
+  top: 72px;
+  left: -40px;
+}
+.youtubelogo3 {
+  max-width: 40px;
+  position: relative;
+  left: -20px;
+  top: 82px;
+}
+.shareourstrength3 {
+  position: relative;
+  max-width: 200px;
+  top: 100px;
+  left: -50px;
+}
+.copyrightlogo3 {
+  max-width: 13px;
+  position: relative;
+  display: inline;
+  top: 130px;
+  left: -170px;
+}
+.waysyoucanhelpfooter {
+  background-color: #5a5a5a;
+  list-style: none;
+  line-height: 50px;
+  text-align: center;
+  width: 400px;
+  height: 1400px;
+  position: relative;
+  top: -800px;
+}
+.items3 {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  top: 10px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.waysyoucanhelpitems {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  top: 50px;
+}
+
+/* DONATE PAGE */
+.donateimage1 {
+  position: relative;
+  top: -66px;
+}
+.button10 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 20px;
+  font-size: 1.8rem;
+  position: relative;
+  left: 90px;
+  top: -200px;
+}
+.button11 {
+  background-color: #a3aacc;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 20px;
+  font-size: 1.8rem;
+  position: relative;
+  left: 90px;
+  top: -150px;
+}
+.button12 {
+  background-color: #a3aacc;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 15px;
+  font-size: 1.8rem;
+  position: relative;
+  left: 90px;
+  top: -100px;
+}
+.button13 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 15px;
+  font-size: 1.8rem;
+  position: relative;
+  left: 110px;
+  top: -100px;
+}
+.button14 {
+  background-color: #a3aacc;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 15px;
+  font-size: 1.4rem;
+  position: relative;
+  left: -83px;
+}
+.button15 {
+  background-color: #a3aacc;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 15px;
+  font-size: 1.4rem;
+  position: relative;
+  left: -60px;
+}
+.button16 {
+  background-color: #5a5a5a;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 20px;
+  font-size: 1.8rem;
+  position: relative;
+  width: 194px;
+  left: 90px;
+  top: 20px;
+}
+input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  border: 1px solid #898fae;
+  color: #5e637a;
+  font-size: 1rem;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  left: 40px;
+  top: 50px;
+}
+.button17 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 20px;
+  font-size: 1.8rem;
+  position: relative;
+  width: 300px;
+  top: 80px;
+  left: 40px;
+}
+
+.button18 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 25px;
+  position: relative;
+  left: -55px;
+  width: 250px;
+}
+.button19 {
+  background-color: #f47536;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 25px;
+  position: relative;
+  left: -55px;
+  width: 250px;
+  top: 50px;
+}
+.facebooklogo4 {
+  max-width: 30px;
+  position: relative;
+  top: 70px;
+  left: -110px;
+}
+.instalogo4 {
+  max-width: 28px;
+  position: relative;
+  top: 72px;
+  left: -70px;
+}
+.twitterlogo4 {
+  max-width: 33px;
+  position: relative;
+  top: 72px;
+  left: -30px;
+}
+.youtubelogo4 {
+  max-width: 40px;
+  position: relative;
+  top: 82px;
+  left: 0px;
+}
+.shareourstrength4 {
+  position: relative;
+  top: 100px;
+  max-width: 200px;
+  left: -50px;
+}
+.copyrightlogo4 {
+  max-width: 13px;
+  position: relative;
+  display: inline;
+  left: -190px;
+  top: 110px;
+}
+.donatefooter {
+  background-color: #5a5a5a;
+  list-style: none;
+  line-height: 50px;
+  text-align: center;
+  width: 400px;
+  height: 1400px;
+  position: relative;
+  top: 60px;
+}
+.items4 {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  top: 15px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.donateitems {
+  display: block;
+  min-width: 100%;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  top: 30px;
+}
+/* HOME PAGE - LAPTOP VIEW */
+
+@media (min-width: 768px) {
+  .logo {
+    min-width: 300px;
+    position: relative;
+    left: 200px;
+  }
+  #changeIMG {
+    background-color: white;
+    border: none;
+    min-width: 300px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    align-items: center;
+  }
+  .navbar {
+    display: block;
+    height: 120px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 0;
+    font-size: 1rem;
+    position: relative;
+    top: -30px;
+  }
+  .link1 {
+    display: inline;
+    float: left;
+    margin: 10px;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+    top: 5px;
+  }
+  .link2 {
+    display: inline;
+    float: left;
+    margin: 10px;
+    position: relative;
+    top: 5px;
+    left: 100px;
+  }
+  .link3 {
+    display: inline;
+    float: left;
+    margin: 10px;
+    position: relative;
+    left: 180px;
+    top: 5px;
+  }
+  .link4 {
+    display: inline;
+    float: left;
+    margin: 10px;
+    position: relative;
+    left: 300px;
+    top: 5px;
+  }
+  .h1 {
+    font-size: 3rem;
+    position: relative;
+    top: -400px;
+    left: -400px;
+    text-align: center;
+    min-width: 2000px;
+  }
+  .homeimage1 {
+    min-width: 1300px;
+  }
+  .button1 {
+    font-size: 3rem;
+    padding: 30px;
+    position: relative;
+    left: 400px;
+    top: -450px;
+    display: block;
+  }
+  .h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 10px;
+    top: -510px;
+  }
+  .homeimage2 {
+    display: inline;
+    max-width: 400px;
+    position: relative;
+    top: -940px;
+  }
+  .homeimage3 {
+    display: inline;
+    max-width: 400px;
+    position: relative;
+    left: 815px;
+    top: -1200px;
+  }
+  .citilogo {
+    min-width: 250px;
+    position: relative;
+    left: 200px;
+    top: -1450px;
+  }
+  .banner {
+    display: block;
+    position: relative;
+    bottom: 2150px;
+    background-color: #f47536;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .bannerlink {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    text-align: center;
+    left: 0px;
+  }
+  .bannertext {
+    position: relative;
+    left: 0px;
+  }
+
+  footer {
+    background-color: #5a5a5a;
+    position: relative;
+    top: -2180px;
+    min-width: 500px;
+    height: 1300px;
+  }
+  .items {
+    position: relative;
+    left: 40px;
+    top: 30px;
+    display: inline;
+    min-width: 100%;
+    margin: 20px;
+    text-align: center;
+    font-weight: 500;
+    background-color: #5a5a5a;
+    font-size: 1rem;
+  }
+  .button2 {
+    position: relative;
+    top: 100px;
+    font-size: 2rem;
+    padding: 40px;
+    width: 350px;
+    left: 200px;
+  }
+  .button3 {
+    position: relative;
+    top: -20px;
+    font-size: 2rem;
+    padding: 40px;
+    width: 350px;
+    left: 650px;
+  }
+  .facebooklogo {
+    position: relative;
+    left: 100px;
+    min-width: 80px;
+    top: -130px;
+  }
+  .instalogo {
+    position: relative;
+    left: 250px;
+    min-width: 70px;
+    top: -128px;
+  }
+  .twitterlogo {
+    position: relative;
+    left: 450px;
+    min-width: 75px;
+    top: -132px;
+  }
+  .youtubelogo {
+    position: relative;
+    left: 600px;
+    min-width: 82px;
+    top: -118px;
+  }
+  .shareyourstrength1 {
+    min-width: 600px;
+    position: relative;
+    left: -50px;
+    top: 200px;
+  }
+  .itemindex {
+    position: relative;
+    left: -50px;
+    font-size: 1.2rem;
+    top: 250px;
+    line-height: 50px;
+  }
+  .copyrightlogo {
+    position: relative;
+    min-width: 20px;
+    left: 400px;
+    top: 320px;
+  }
+
+  /* WHO WE ARE LAPTOP VIEW */
+
+  .whoweareimage2 {
+    display: inline;
+    width: 50px;
+    position: relative;
+    left: 800px;
+    top: -680px;
+  }
+  .url1 {
+    text-decoration: underline;
+    position: relative;
+    top: -2px;
+  }
+  .url2 {
+    position: relative;
+    top: 10px;
+  }
+  .whoweareimage3 {
+    display: inline;
+    width: 400px;
+    position: relative;
+    left: 780px;
+    top: -1100px;
+  }
+  .hr1 {
+    border-top: 3px solid #898fae;
+    display: block;
+    width: 75%;
+    position: relative;
+    top: -1050px;
+    left: 150px;
+  }
+  .url3 {
+    position: relative;
+    top: 10px;
+  }
+  .whoweareimage4 {
+    display: inline;
+    width: 400px;
+    position: relative;
+    top: -1350px;
+  }
+  .hr2 {
+    border-top: 3px solid #898fae;
+    display: block;
+    width: 75%;
+    position: relative;
+    top: -1300px;
+    left: -150px;
+  }
+  .url4 {
+    position: relative;
+    top: 10px;
+  }
+  .whoweareimage5 {
+    display: inline;
+    width: 400px;
+    position: relative;
+    left: 800px;
+    top: -1600px;
+  }
+
+  .items1 {
+    display: inline;
+    min-width: 100%;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    font-weight: 500;
+    background-color: #5a5a5a;
+  }
+  .button4 {
+    font-size: 2rem;
+    padding: 40px;
+    width: 300px;
+    position: relative;
+    left: 250px;
+    top: 150px;
+  }
+  .button5 {
+    font-size: 2rem;
+    padding: 40px;
+    width: 300px;
+    position: relative;
+    left: 350px;
+    top: 150px;
+  }
+  .facebooklogo1 {
+    min-width: 80px;
+    display: inline;
+    position: relative;
+    top: 280px;
+    left: 200px;
+  }
+  .instalogo1 {
+    min-width: 72px;
+    display: inline;
+    position: relative;
+    top: 285px;
+    left: 350px;
+  }
+  .twitterlogo1 {
+    min-width: 85px;
+    display: inline;
+    position: relative;
+    top: 280px;
+    left: 500px;
+  }
+  .youtubelogo1 {
+    min-width: 95px;
+    display: inline;
+    position: relative;
+    top: 300px;
+    left: 630px;
+  }
+  .shareourstrength1 {
+    min-width: 700px;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    top: 400px;
+  }
+  .copyrightlogo1 {
+    position: relative;
+    top: 538px;
+    min-width: 20px;
+    left: 400px;
+  }
+  .banner1 {
+    display: block;
+    position: relative;
+    bottom: 1526px;
+    background-color: #f47536;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .bannerlink1 {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    text-align: center;
+    left: 0px;
+  }
+  .footerwhoweare {
+    position: relative;
+    top: -1950px;
+    height: 1500px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+  }
+  .whoweareitems {
+    font-size: 1.2rem;
+    line-height: 80px;
+    position: relative;
+    top: 450px;
+    left: -20px;
+  }
+  footer.footerwhoweare {
+    position: relative;
+    top: -1550px;
+    height: 1650px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* WHAT WE DO PAGE */
+  .whatwedoimage2 {
+    display: block;
+    max-width: 350px;
+    position: relative;
+    top: -430px;
+  }
+  .whatwedoimage3 {
+    display: block;
+    max-width: 350px;
+    position: relative;
+    left: 850px;
+    top: -950px;
+  }
+  .items2 {
+    position: relative;
+    top: 20px;
+    display: inline;
+    min-width: 100%;
+    margin: 29px;
+    text-align: center;
+    font-weight: 600;
+    left: -15px;
+  }
+  .button6 {
+    font-size: 2rem;
+    padding: 40px;
+    width: 300px;
+    position: relative;
+    left: -50px;
+    top: 100px;
+  }
+  .button7 {
+    font-size: 2rem;
+    padding: 40px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .facebooklogo2 {
+    min-width: 80px;
+    display: inline;
+    position: relative;
+    top: 200px;
+    left: -250px;
+  }
+  .instalogo2 {
+    min-width: 72px;
+    display: inline;
+    position: relative;
+    top: 205px;
+    left: -100px;
+  }
+  .twitterlogo2 {
+    min-width: 85px;
+    display: inline;
+    position: relative;
+    top: 205px;
+    left: 80px;
+  }
+  .youtubelogo2 {
+    min-width: 95px;
+    display: inline;
+    position: relative;
+    top: 225px;
+    left: 200px;
+  }
+  .shareourstrength2 {
+    min-width: 700px;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 300px;
+  }
+  .whatwedoitems {
+    font-size: 1.2rem;
+    position: relative;
+    top: 300px;
+    left: -50px;
+    line-height: 60px;
+  }
+  .copyrightlogo2 {
+    position: relative;
+    top: 80px;
+    min-width: 20px;
+    left: -190px;
+    top: 375px;
+  }
+  .banner2 {
+    display: block;
+    position: relative;
+    bottom: 1475px;
+    background-color: #f47536;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .bannerlink2 {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    text-align: center;
+    left: 0px;
+  }
+  .footerwhatwedo {
+    position: relative;
+    top: -1505px;
+    height: 1400px;
+  }
+  /* WAYS YOU CAN HELP */
+
+  .items3 {
+    position: relative;
+    top: 20px;
+    display: inline;
+    min-width: 100%;
+    margin: 29px;
+    left: -20px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .button8 {
+    font-size: 2rem;
+    padding: 40px;
+    width: 300px;
+    position: relative;
+    left: -50px;
+    top: 100px;
+  }
+  .button9 {
+    font-size: 2rem;
+    padding: 40px;
+    width: 300px;
+    position: relative;
+    left: 70px;
+    top: 100px;
+  }
+  .facebooklogo3 {
+    min-width: 80px;
+    display: inline;
+    position: relative;
+    left: -250px;
+    top: 150px;
+  }
+  .instalogo3 {
+    min-width: 72px;
+    display: inline;
+    position: relative;
+    left: -100px;
+    top: 155px;
+  }
+  .twitterlogo3 {
+    min-width: 85px;
+    display: inline;
+    position: relative;
+    left: 100px;
+    top: 155px;
+  }
+  .youtubelogo3 {
+    min-width: 95px;
+    display: inline;
+    position: relative;
+    left: 200px;
+    top: 175px;
+  }
+  .shareourstrength3 {
+    min-width: 700px;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 250px;
+  }
+  .copyrightlogo3 {
+    position: relative;
+    min-width: 20px;
+    position: relative;
+    left: -150px;
+    top: 340px;
+  }
+  .banner3 {
+    display: block;
+    position: relative;
+    bottom: 930px;
+    background-color: #f47536;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .bannerlink3 {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    text-align: center;
+    left: 0px;
+  }
+  .waysyoucanhelpfooter {
+    position: relative;
+    top: -955px;
+    min-width: 1181px;
+  }
+  .waysyoucanhelpitems {
+    font-size: 1.2rem;
+    position: relative;
+    top: 250px;
+    left: -40px;
+    line-height: 60px;
+  }
+  /* DONATE */
+  .button10 {
+    padding: 40px;
+    font-size: 2.5rem;
+    position: relative;
+    left: 200px;
+    top: -150px;
+  }
+  .button11 {
+    padding: 40px;
+    font-size: 2.5rem;
+    position: relative;
+    left: 350px;
+    top: -150px;
+  }
+  .br {
+    display: none;
+  }
+  .button12 {
+    padding: 30px;
+    font-size: 3rem;
+    position: relative;
+    top: -50px;
+    left: 150px;
+  }
+  .button13 {
+    padding: 30px;
+    font-size: 3rem;
+    position: relative;
+    top: -50px;
+    left: 200px;
+  }
+  .button14 {
+    padding: 30px;
+    font-size: 3rem;
+    position: relative;
+    top: -50px;
+    left: 250px;
+  }
+  .button15 {
+    padding: 30px;
+    font-size: 3rem;
+    position: relative;
+    top: -50px;
+    left: 290px;
+  }
+  .button16 {
+    padding: 40px;
+    font-size: 2.5rem;
+    width: 400px;
+    position: relative;
+    left: 380px;
+  }
+  input {
+    align-items: center;
+    position: relative;
+    left: 120px;
+    font-size: 2rem;
+    display: inline;
+    width: 450px;
+    
+  }
+  #fname {
+    display: inline;
+    position: relative;
+    left: 120px;
+    top: 125px;
+  }
+  #lname {
+    display: inline;
+    position: relative;
+    left: 600px;
+    top: 50px;
+  }
+  #billing1 {
+    display: inline;
+    position: relative;
+    left: 120px;
+    top: 50px;
+  }
+  #billing2 {
+    display: inline;
+    position: relative;
+    left: 600px;
+    top: -25px;
+  }
+  #city {
+    display: inline;
+    position: relative;
+    left: 120px;
+    top: -20px;
+    
+  }
+  #state {
+    display: inline;
+    position: relative;
+    left: 600px;
+    top: -95px;
+    width: 230px;
+  }
+  #zip {
+    display: inline;
+    position: relative;
+    left: 850px;
+    top: -171px;
+    width: 200px;
+  }
+  #email {
+    display: inline;
+    position: relative;
+    left: 120px;
+    top: -165px;
+  }
+  #phone {
+    display: inline;
+    position: relative;
+    left: 600px;
+    top: -240px;
+    
+  }
+  #creditcard {
+    display: inline;
+    position: relative;
+    left: 120px;
+    top: -200px;
+    width: 940px;
+   
+  }
+  #cvv {
+    width: 270px;
+    position: relative;
+    left: 120px;
+    top: -200px;
+    
+  }
+  #month {
+    width: 300px;
+    position: relative;
+    left: 425px;
+    top: -276px;
+  }
+  #year {
+    width: 300px;
+    position: relative;
+    left: 760px;
+    top: -352px;
+  }
+  .button17 {
+    padding: 40px;
+    font-size: 2.5rem;
+    width: 400px;
+    position: relative;
+    left: 400px;
+    top: -300px;
+   
+  }
+
+  .items4 {
+    position: relative;
+    top: 20px;
+    display: inline;
+    min-width: 100%;
+    margin: 30px;
+    text-align: center;
+    font-weight: 500;
+    left: -10px;
+  }
+  .button18 {
+    font-size: 2rem;
+    padding: 40px;
+    width: 300px;
+    position: relative;
+    left: -50px;
+    top: 100px;
+  }
+  .button19 {
+    font-size: 2rem;
+    padding: 40px;
+    width: 300px;
+    position: relative;
+    left: 60px;
+    top: 100px;
+  }
+  .facebooklogo4 {
+    min-width: 80px;
+    display: inline;
+    position: relative;
+    left: -250px;
+    top: 150px;
+  }
+  .instalogo4 {
+    min-width: 72px;
+    display: inline;
+    position: relative;
+    left: -100px;
+    top: 152px;
+  }
+  .twitterlogo4 {
+    min-width: 85px;
+    display: inline;
+    position: relative;
+    left: 100px;
+    top: 152px;
+  }
+  .youtubelogo4 {
+    min-width: 95px;
+    display: inline;
+    position: relative;
+    left: 220px;
+    top: 170px;
+  }
+  .shareourstrength4 {
+    min-width: 700px;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 230px;
+  }
+  .copyrightlogo4 {
+    position: relative;
+    min-width: 20px;
+    left: -160px;
+    top: 285px;
+  }
+  .banner4 {
+    display: block;
+    position: relative;
+    bottom: 250px;
+    background-color: #f47536;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .bannerlink4 {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    text-align: center;
+    left: 0px;
+  }
+  .donatefooter {
+    position: relative;
+    top: -366px;
+    width: 1200px;
+    left: 0px;
+    height: 1300px;
+  }
+  .donateitems {
+    font-size: 1.2rem;
+    position: relative;
+    left: -30px;
+    top: 200px;
+  }
+}
+/* Custom Ids*/
